@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hotmix"
-version = "0.0.2"
+version = "0.0.3"
 description = "Add htmx to your FastAPI application"
 authors = ["flokapi <flokapi@pm.me>"]
 license = "LGPL-3.0-only"
