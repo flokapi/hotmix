@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "hotmix"
+version = "0.0.2"
+description = "Add htmx to your FastAPI application"
+authors = ["flokapi <flokapi@pm.me>"]
+license = "LGPL-3.0-only"
+readme = "README.md"
+
+packages = [
+    { include = "hotmix", from = "src" },
+]
+
+[tool.poetry.urls]
+homepage = "https://github.com/flokapi/hotmix"
+repository = "https://github.com/flokapi/hotmix"
+documentation = "https://github.com/flokapi/hotmix"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+float_to_top = true

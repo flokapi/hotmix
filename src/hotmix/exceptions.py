@@ -1,0 +1,4 @@
+
+
+class TemplateNotFoundError(Exception):
+    pass
